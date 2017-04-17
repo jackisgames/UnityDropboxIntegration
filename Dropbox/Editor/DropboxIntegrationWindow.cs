@@ -19,7 +19,7 @@ namespace Dropbox
         {
             if (dropboxAccount == null)
             {
-                if (GUILayout.Button("Setuo"))
+                if (GUILayout.Button("Setup"))
                 {
                     DropboxUnity.InitializeDropBox();
                 }
